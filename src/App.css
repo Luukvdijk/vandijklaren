@@ -1,0 +1,18 @@
+:root {
+  --background-color: #ffffff;
+  --primary-color: #4b95d9;
+  --secondary-color: #73a831;
+  --primary-text-color: #181c39;
+  --secondary-text-color: #e6ecfc;
+  overflow-x: hidden;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.reverseEven:nth-child(even) {
+  flex-direction: row-reverse !important;
+}
